@@ -1,6 +1,32 @@
 import { StyleSheet } from "react-native"
 
+export const Colores = {
+    azul: "#366288",
+    blanco:"#ffff"
+
+}
+
 export const GlobalStyles = StyleSheet.create({
+    containerAzul:{
+        backgroundColor:Colores.azul,
+        height:"100%"
+    },
+
+    containerBlanco:{
+        
+        borderRadius: 32,
+        backgroundColor:Colores.blanco,
+        height:"70%"
+    },
+    logo: {
+        width: 60,
+        height:60,
+        left:"80%",
+    },
+    textoTitulo:{
+        fontSize:35
+
+    },
     containerCentrado: {
         flex: 1,
         justifyContent: 'center',
